@@ -5,4 +5,6 @@
 @_exported import ArmongateMobileAccessSDK
 @_exported import VoramCore
 
-// This ensures both modules are available when importing just ArmongateMobileAccessSDK
+// This ensures both modules are available when importing just MobileAccessSDK
+// Note: ArmongateMobileAccessSDK is available through the binary target
+// VoramCore is available through the dependency
