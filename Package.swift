@@ -8,15 +8,15 @@ let package = Package(
         .library(name: "ArmongateMobileAccess", targets: ["ArmongateMobileAccess"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/armongate-dev/mobileaccess-core.git", exact: "0.0.2-beta.17"),
-        .package(url: "https://github.com/armongate-dev/mobileaccess-sdk.git", exact: "0.0.2-beta.17")
+        .package(url: "https://github.com/armongate-dev/mobileaccess-core.git", exact: "0.0.2-beta.18"),
+        .package(url: "https://github.com/armongate-dev/mobileaccess-sdk.git", exact: "0.0.2-beta.18")
     ],
     targets: [
         .target(
             name: "ArmongateMobileAccess",
             dependencies: [
-                .product(name: "VoramCore", package: "armongate-mobile-access-core"),
-                .product(name: "ArmongateMobileAccessSDK", package: "armongate-mobile-access-sdk")
+                .product(name: "VoramCore", package: "mobileaccess-core"),
+                .product(name: "ArmongateMobileAccessSDK", package: "mobileaccess-sdk")
             ]
         ),
     ]
