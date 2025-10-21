@@ -5,11 +5,11 @@ let package = Package(
     name: "ArmongateMobileAccessSDK",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "ArmongateMobileAccessSDK", targets: ["ArmongateMobileAccessSDKMeta"]),
+        .library(name: "MobileAccessSDK", targets: ["ArmongateMobileAccessSDKMeta"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/armongate-dev/mobileaccess-core.git", exact: "0.0.2-beta.14"),
-        .package(url: "https://github.com/armongate-dev/mobileaccess-sdk.git", exact: "0.0.2-beta.14")
+        .package(url: "https://github.com/armongate-dev/mobileaccess-core.git", exact: "0.0.2-beta.15"),
+        .package(url: "https://github.com/armongate-dev/mobileaccess-sdk.git", exact: "0.0.2-beta.15")
     ],
     targets: [
         .target(
