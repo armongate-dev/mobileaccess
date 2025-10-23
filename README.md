@@ -7,7 +7,7 @@ Meta-package for easy integration with automatic dependency resolution.
 Add to your Package.swift:
 ```swift
 dependencies: [
-    .package(url: "https://github.com/armongate-dev/mobileaccess.git", exact: "0.0.2-beta.27")
+    .package(url: "https://github.com/armongate-dev/mobileaccess.git", exact: "0.0.2-beta.28")
 ]
 ```
 
@@ -30,5 +30,5 @@ SDKConfig *config = [[SDKConfig alloc] initWithSdkKey:@"your-api-key" debugMode:
 ```
 
 ## What's Included
-- ArmongateMobileAccessSDK 0.0.2-beta.27
-- VoramCore VORAM_0.0.2-beta.27
+- ArmongateMobileAccessSDK 0.0.2-beta.28
+- VoramCore VORAM_0.0.2-beta.28
