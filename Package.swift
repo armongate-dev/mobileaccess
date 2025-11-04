@@ -8,8 +8,8 @@ let package = Package(
         .library(name: "ArmongateMobileAccess", targets: ["ArmongateMobileAccess"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/armongate-dev/mobileaccess-core.git", exact: "0.0.3-beta.20"),
-        .package(url: "https://github.com/armongate-dev/mobileaccess-sdk.git", exact: "0.0.3-beta.20")
+        .package(url: "https://github.com/armongate-dev/mobileaccess-core.git", exact: "0.0.3-beta.21"),
+        .package(url: "https://github.com/armongate-dev/mobileaccess-sdk.git", exact: "0.0.3-beta.21")
     ],
     targets: [
         .target(
